@@ -69,7 +69,8 @@ let AboutPage = () => {
   return (
     <>
       <h1 className="w3-text-teal">About BabyFace</h1>
-      <p>BabyFace is a simple app built on top of FaceNet to resolve the age-old debate: &quot;Does baby look more like Mommy or Daddy?&quot; Created by Riley Patterson after months of listening to his wife&apos;s family say his daughter looked more like him, and his own family say she looked more like his wife.</p>
+      <p>BabyFace is a simple app built on top of <a href="https://en.wikipedia.org/wiki/FaceNet">FaceNet</a> to resolve the age-old debate: &quot;Does baby look more like Mommy or Daddy?&quot; Created by Riley Patterson after months of listening to his wife&apos;s family say his daughter looked more like him, and his own family say she looked more like his wife.</p>
+      <p>The <a href="https://github.com/rylz/babyface">source code is available on github</a>.</p>
     </>
   )
 }
