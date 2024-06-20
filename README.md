@@ -1,6 +1,6 @@
 # BabyFace
 
-A simple flask/react app built on top of [FaceNet](timesler/facenet-pytorch) to resolve the age-old debate: "Does baby look more like Mommy or Daddy?"
+A simple flask/react app built on top of [FaceNet](https://github.com/timesler/facenet-pytorch) to resolve the age-old debate: "Does baby look more like Mommy or Daddy?"
 
 See [BabyFace in action](https://babyface.viviandriley.com)!
 
@@ -9,7 +9,6 @@ Designed to be built using docker, and then deployed to any service that can run
 The facenet-pytorch dependency pulls in a 107MB pytorch model called vggface2.
 This, plus pytorch itself, results in a larger docker image than you might expect for a typical simple web app.
 Its startup time is also fairly long due to this (5-10 seconds on Google Cloud Run with default settings), and it requires just over 1GB of available RAM.
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
 ## Building and Deploying
 
